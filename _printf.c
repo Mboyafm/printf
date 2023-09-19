@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _printf - Prints to standout
@@ -22,6 +23,7 @@ int _printf(const char *format, ...)
 		if (format[i + 1] == 'c')
 		{
 			putchar(va_arg(args, int));
+			i++;
 		}
 		count += 1;
 	}

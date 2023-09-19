@@ -9,6 +9,5 @@
 
 int _printf(const char *format, ...);
 int _putchar(char c);
-int putchr(char c);
 
 #endif /*MAIN_H*/
